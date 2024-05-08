@@ -1,0 +1,20 @@
+import React, { Component } from 'react';
+import Header from '../Component/Header';
+
+class Principal extends Component {
+  render() {
+    return (
+      <div id='div-principal'>
+        <Header/>
+        <h1 className='title'>Lorem Ipsum</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis, est ac convallis suscipit, felis mauris vulputate diam, ut ultricies ipsum eros eu tellus. Suspendisse id suscipit augue. Curabitur gravida, justo sed tristique vulputate, tortor libero sollicitudin est, non aliquam augue quam tempus justo. Pellentesque malesuada, justo ac suscipit ultricies, nunc neque malesuada augue, a ornare felis massa eu libero. Morbi at nisl elit. Vivamus at arcu ipsum. Cras mi nibh, placerat id lorem eu, mattis hendrerit nunc. Pellentesque rutrum lectus ac nisi laoreet, nec feugiat erat malesuada. Nam pretium mollis risus eu lobortis. Vivamus interdum venenatis nunc, sit amet tempor leo efficitur in. Duis in arcu euismod, mollis libero at, euismod nisi. In sem massa, laoreet sit amet tempus eu, placerat vitae nunc.</p>
+        <p>Vestibulum egestas leo vitae metus fringilla, eget consequat nunc malesuada. Mauris viverra ante sapien. Proin vel augue vehicula, dictum metus tempus, dapibus odio. Donec vitae tellus consectetur, iaculis lacus ut, condimentum quam. Fusce placerat sapien sit amet facilisis bibendum. Duis eleifend placerat aliquet. Maecenas in faucibus sem. Vivamus viverra pharetra sapien vel suscipit. Mauris pulvinar leo leo, eget scelerisque mi porta sit amet. Quisque facilisis ex vitae justo accumsan cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in volutpat dolor. Pellentesque imperdiet nisi sit amet magna rhoncus efficitur.</p>
+        <p>Suspendisse vitae mi hendrerit, condimentum nulla aliquet, semper massa. Fusce feugiat congue nisi ac rhoncus. Praesent elementum mauris lorem, at laoreet sem dignissim ac. Curabitur quis leo commodo, tempor magna sed, ultricies dui. Aenean in mauris orci. Aliquam quis blandit risus, et efficitur nibh. Sed egestas urna ut urna sodales vulputate. Nulla at aliquet dolor. Mauris aliquet luctus turpis, id lacinia risus vehicula sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere, eros ac placerat rhoncus, lectus lorem rhoncus tortor, id pellentesque massa nunc nec mauris. Proin sit amet tristique erat, vitae ultrices neque. Fusce quis erat quis nibh consequat auctor ut quis elit.</p>
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque a felis eget quam ultricies pharetra ut et neque. Vestibulum convallis purus eu accumsan rhoncus. Mauris non lacus vitae dolor dignissim volutpat. Vestibulum non felis elit. Sed luctus urna ut felis ultrices facilisis. Phasellus vestibulum accumsan nisi, vel tempus lectus iaculis non. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ornare massa ultrices, consequat urna eget, cursus metus. Suspendisse at fringilla massa, at tempus arcu. Duis condimentum urna erat, et maximus erat blandit et. Integer non dui id enim interdum hendrerit nec ut nibh. Nam varius aliquet diam ac commodo. Phasellus semper sapien et diam lacinia, at venenatis nulla dignissim.</p>
+        <p>Etiam metus augue, auctor quis felis vel, aliquet posuere ante. Morbi augue tellus, vehicula et dictum eu, vulputate quis nunc. Aliquam erat volutpat. Aliquam feugiat est nibh, in posuere ante maximus vel. Pellentesque aliquam porttitor iaculis. Fusce gravida rutrum est, nec egestas nisi sollicitudin vitae. Proin quis leo quis metus posuere congue in et magna. Sed ornare vulputate sollicitudin. Nullam pulvinar sit amet neque eu tempus. Vivamus sed ligula nec lectus placerat consequat.</p>
+      </div>
+    );
+  }  
+}
+
+export default Principal;
